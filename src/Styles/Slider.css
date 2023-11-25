@@ -1,0 +1,28 @@
+
+
+
+.range-slider__tooltip__label {
+  background-color: white !important;
+  color: black !important;
+}
+
+.range-slider__tooltip__label::before {
+  content: '₹';
+}
+
+.slider-sub-container .range-label {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.slider-sub-container .range-label .min_label {
+  width: 50%;
+  text-align: left;
+}
+
+.slider-sub-container .range-label .max_label {
+  width: 50%;
+  text-align: end;
+}
+

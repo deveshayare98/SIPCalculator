@@ -1,0 +1,34 @@
+.tab-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tab-container .tab-list {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+}
+
+.tab-container .tab-list .tab-name {
+    width: 200px;
+    height: 22px;
+    padding: 15px 15px;
+    border: 1px solid #afa79c7d;
+    border-radius: 12px 12px 0px 0px;
+    background-color: #dedbd77d;
+}
+
+.tab-container .tab-list .tab-name.active {
+    background-color: antiquewhite;
+    color: black;
+    font-weight: 500;
+}
+
+@media screen and (max-device-width: 768px) {
+    .tab-container .tab-list {
+        margin: 0px !important;
+        width: 100%;
+    }
+}

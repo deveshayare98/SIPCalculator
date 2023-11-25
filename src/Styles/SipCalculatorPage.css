@@ -1,0 +1,295 @@
+.sip-main-container {
+    background-color: #dedbd77d;
+    position: relative;
+    top: 60px;
+}
+
+.sip-main-container .sip-sub-container {
+    height: 1600px;
+    /* width: 100%; */
+    margin: 0px 130px;
+    background-color: white;
+}
+
+
+.sip-main-container .sip-sub-container .sip-middle-section {
+    position: relative;
+    height: 330px;
+    background-color: white;
+    padding: 60px 200px 0px 200px;
+    z-index: 9;
+}
+
+.sip-main-container .sip-sub-container .sip-middle-section .description {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sip-main-container .sip-sub-container .sip-middle-section .description .left-section {
+    word-spacing: 2px;
+    text-align: left;
+    padding-right: 39px;
+}
+
+.sip-main-container .sip-sub-container .sip-middle-section .description .left-section div{
+    padding-bottom: 20px;
+    font-weight: 300;
+    color: gray;
+}
+
+.sip-main-container .sip-sub-container .sip-middle-section .emp-details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    padding: 15px 0px;
+    margin: 25px 0px;
+}
+
+.sip-main-container .sip-sub-container .sip-middle-section .emp-details div{
+    font-size: 15px;
+    color: #736868e3;
+}
+
+.sip-main-container .sip-sub-container .sip-middle-section .emp-details .emp-code {
+    text-align: right;
+    width: 40%;
+}
+.sip-main-container .sip-sub-container .sip-middle-section .emp-details .emp-company {
+    width: 60%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section {
+    position: relative;
+    height: 330px;
+    background-color: white;
+    padding: 60px 200px 0px 200px;
+}
+
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container {
+    border: 1px solid #afa79c7d;
+    border-radius: 13px;
+    padding: 25px;
+}
+
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .title {
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .sub-title {
+    text-align: left;
+    color: gray;
+    font-size: 15px;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section .left-section {
+    width: 50%;
+    margin-top: 48px;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section .left-section span.label {
+    float: left;
+    font-size: 12px;
+    color: gray;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section .left-section .slider-container {
+    margin-top: 46px;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section .right-section {
+    width: 50%;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section .left-section  .button-groups {
+    float: left;
+    margin-top: 20px;
+}
+ 
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section .left-section .button-groups button.primary-button {
+    background-color: white;
+    border: 2px solid #49a7e9;
+    border-radius: 18px;
+    padding: 3px 12px;
+    color: #49a7e9;
+    font-weight: 400;
+    margin-right: 10px;
+
+  }
+
+
+  .sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container  .bottom-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container  .bottom-section .small-text {
+    text-align: left;
+    margin: 20px 0px;
+    font-size: 11px;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container  .bottom-section .condition-section {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container  .bottom-section .condition-section .condition-info {
+    display: flex;
+    width: 50%;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container  .bottom-section .condition-section .condition-info p {
+    padding: 6px;
+    line-height: 1.6;
+    text-align: left;
+    font-size: 11px;
+}
+
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container  .bottom-section .condition-section .button-section {
+    display: flex;
+    width: 50%;
+    flex-flow: row-reverse;
+    margin-top: 20px;
+}
+
+.sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container  .bottom-section .condition-section .button-section button.next-button {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 18px;
+    width: 110px;
+    height: 31px;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+/* @media only(max-width:1024px){
+    .sip-main-container .sip-sub-container {
+        margin: 0px;
+    }
+} */
+
+/* For Desktop View */
+
+
+/* @media(min-device-width: 1400px) {
+    .banner-main-container .middle-text-container .prof-details {
+        margin-left:-20px
+    }
+} */
+@media(max-device-width: 1224px) {
+    .sip-main-container .sip-sub-container {
+        
+        color: gre;
+    }
+    .sip-main-container .sip-sub-container {
+        margin: 0px;
+    }
+    .sip-main-container .sip-sub-container .sip-middle-section{
+        padding: 60px 100px 0px 100px;
+    }
+    .sip-main-container .sip-sub-container .sip-buttom-section{
+        padding: 60px 100px 0px 100px;
+    }
+}
+ 
+@media(max-device-width: 770px) {
+    .sip-main-container .sip-sub-container .sip-middle-section .description{
+        flex-direction: column-reverse;
+    }
+    .sip-main-container .sip-sub-container .sip-middle-section{
+        padding: 60px 30px 0px 30px;
+    }
+    .sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section .left-section {
+        width: 100%;
+    }
+    .sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section .right-section {
+        width: 100%;
+    }
+
+    .sip-main-container .sip-sub-container .sip-buttom-section {
+        padding: 60px 30px 0px 30px;
+    }
+    .sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .bottom-section .condition-section {
+        flex-direction: column;
+    }
+    .sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .bottom-section .condition-section .condition-info {
+        width: 100%;
+    }
+    .sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .bottom-section .condition-section .condition-info p {
+        padding: 0px;
+    }
+    .sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .bottom-section .condition-section .button-section {
+        width: 100%;
+        /* flex-flow: unset; */
+        display: block;
+    }
+    .sip-main-container .sip-sub-container .sip-middle-section {
+        min-height: 700px;
+    }
+    
+    
+}
+@media(max-device-width: 820px) {
+    .sip-main-container .sip-sub-container .sip-middle-section {
+        min-height: 450px;
+    }
+}
+@media (min-device-width: 480px) and (max-device-width: 760px){
+    .sip-main-container .sip-sub-container .sip-middle-section {
+        min-height: 500px;
+    }
+}
+
+
+@media(max-device-width: 480px) {
+    .sip-main-container .sip-sub-container .sip-middle-section {
+        min-height: 660px;
+    }
+    .sip-main-container .sip-sub-container .sip-middle-section .emp-details {
+        flex-direction: column;
+        width: 100%;
+    }
+    .sip-main-container .sip-sub-container .sip-middle-section .emp-details .emp-code {
+        width: 100%;
+        text-align: center;
+    }
+    .sip-main-container .sip-sub-container .sip-middle-section .emp-details .emp-company {
+        text-align: center;
+    }
+   
+}
+
+@media(max-device-width: 350px) {
+    .sip-main-container .sip-sub-container .sip-middle-section {
+        min-height: 800px;
+    }
+   
+}
+ 

@@ -1,0 +1,106 @@
+.banner-main-container {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-color: #f8f7d5;
+}
+
+.left-image-container img {
+    position: relative;
+    opacity: 99999999;
+    z-index: 1;
+}
+
+.banner-main-container .left-image-container {
+    /* margin: 0px 0 0 52px; */
+    width: 35%;
+    text-align: right;
+}
+
+.banner-main-container .middle-text-container {
+    width: 65%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}   
+.banner-main-container .right-text-container {
+    width: 20%;
+    text-align: left;
+}
+
+.banner-main-container .middle-text-container .finicial-info {
+    /* display: block; */
+    /* width: 100%; */
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 50px 20px 0px 0px;
+}
+
+
+.banner-main-container .middle-text-container .first-text {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+.banner-main-container .middle-text-container .large-text {
+    font-size: 60px;
+    font-family: auto;
+    color: red;
+    margin: 0px;
+    
+}
+
+.banner-main-container .middle-text-container  .middle-text {
+    text-align: center;
+    margin: 0px 200px;
+    font-size: 30px;
+    padding-right: 95px;
+}
+
+.banner-main-container .middle-text-container span.name {
+    font-weight: 1000;
+    font-size: 25px;
+    margin-right: 5px;
+
+}
+
+.banner-main-container .middle-text-container .prof-details {
+    background-color: #fcb017;
+    width: 100%;
+    padding: 10px 0px 10px 58px;
+    margin-top: 75px;
+    margin-left: -57px;
+    height: 40px;
+}
+
+@media screen and (max-device-width: 480px) {
+
+    .left-image-container img {
+        width: 350px;
+        height: auto;
+    }
+        
+    .banner-main-container {
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .banner-main-container .middle-text-container{
+        width: 100%;
+        padding-left: 5px;
+    }
+    .banner-main-container .middle-text-container .middle-text {
+        text-align: right;
+        margin: auto;
+        /* margin-right: 25px; */
+    }
+
+    .banner-main-container .middle-text-container .prof-details {
+        margin-top: 30px;
+        margin-left: -50px;
+        padding: 10px 27px 10px 51px;
+    }
+}
