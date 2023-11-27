@@ -231,6 +231,8 @@
     }
     .sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section .right-section {
         width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .sip-main-container .sip-sub-container .sip-buttom-section {
@@ -258,7 +260,7 @@
 }
 @media(max-device-width: 820px) {
     .sip-main-container .sip-sub-container .sip-middle-section {
-        min-height: 450px;
+        min-height: 500px;
     }
 }
 @media (min-device-width: 480px) and (max-device-width: 760px){
@@ -270,7 +272,7 @@
 
 @media(max-device-width: 480px) {
     .sip-main-container .sip-sub-container .sip-middle-section {
-        min-height: 660px;
+        min-height: 740px;
     }
     .sip-main-container .sip-sub-container .sip-middle-section .emp-details {
         flex-direction: column;
@@ -283,6 +285,12 @@
     .sip-main-container .sip-sub-container .sip-middle-section .emp-details .emp-company {
         text-align: center;
     }
+    .sip-main-container .sip-sub-container .sip-buttom-section .sip-calculator-container .middle-section .right-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
    
 }
 
@@ -290,6 +298,7 @@
     .sip-main-container .sip-sub-container .sip-middle-section {
         min-height: 800px;
     }
+    
    
 }
  

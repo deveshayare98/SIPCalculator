@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Banner from "../Component/Banner";
-import Tab from "../Component/Tab";
-import SliderRange from "../Component/SliderRange";
+import Banner from "../Components/Banner";
+import Tab from "../Components/Tab";
+import SliderRange from "../Components/SliderRange";
 import Group from "../Assests/Images/Group.png";
-import VerticalBar from "../Component/VerticalBar";
+import VerticalBar from "../Components/VerticalBar";
 import calculateSIP from "../utils/SIPReturnCalculation";
 import "../Styles/SipCalculatorPage.css";
 
@@ -84,7 +84,7 @@ function SipCalculatorPage(props) {
               </div>
             </div>
             <div className="right-section">
-              <img src={Group} width="230px" height="180px" />
+              <img src={Group} width="230px" height="180px" alt="Money plant" />
             </div>
           </div>
           <div className="emp-details">
@@ -100,9 +100,9 @@ function SipCalculatorPage(props) {
             onClickTab={onClickTabFun}
             TabList={TabList}
           />
-          {activeTab == "sip_calculator" ? (
+          {activeTab === "sip_calculator" ? (
             <div className="sip-calculator-container">
-              <div className="title">Review your investment details</div>
+              <div className="title">Review Your Investment Details</div>
               <div className="sub-title">
                 Use the slider for selecting investment amount
               </div>
@@ -144,7 +144,7 @@ function SipCalculatorPage(props) {
                       *The above is for illustration purpose only. The SIP
                       amount, tenure of SIP, expected rate of return are assumed
                       figures for the purpose of explaining the concept of a...
-                      Read More
+                      <a href="">Read More</a> 
                     </p>
                   </div>
                   <div className="button-section">
@@ -156,8 +156,8 @@ function SipCalculatorPage(props) {
           ) : (
             ""
           )}
-          {activeTab == "choose_fund" ? <div>Choose Fund/s</div> : ""}
-          {activeTab == "confirm" ? <div>Confirm</div> : ""}
+          {activeTab === "choose_fund" ? <div>Choose Fund/s</div> : ""}
+          {activeTab === "confirm" ? <div>Confirm</div> : ""}
           
         </div>
       </div>

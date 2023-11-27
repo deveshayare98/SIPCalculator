@@ -9,6 +9,7 @@
     flex-direction: row;
     width: 50%;
     margin: auto;
+    text-align: center;
 }
 
 .tab-container .tab-list .tab-name {

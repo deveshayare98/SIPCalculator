@@ -10,7 +10,7 @@ function Header(props) {
             </div>
             <div className="contact-us-container">
                 <span className="con-details">
-                    Contact Us <span className="fas fa-phone-alt"></span>  8108622222
+                    Contact Us  &nbsp;<i class="fa fa-phone"></i>&nbsp;8108622222
                 </span>
             </div>
         </div>

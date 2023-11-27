@@ -27,3 +27,7 @@
     margin: 25px 200px;
     font-weight: 400;
 }
+
+.header-main-container .contact-us-container span.con-details  i.fa.fa-phone {
+    display: inline;
+}

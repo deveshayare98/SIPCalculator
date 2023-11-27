@@ -57,6 +57,7 @@
     margin: 0px 200px;
     font-size: 30px;
     padding-right: 95px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .banner-main-container .middle-text-container span.name {
@@ -100,7 +101,11 @@
 
     .banner-main-container .middle-text-container .prof-details {
         margin-top: 30px;
-        margin-left: -50px;
-        padding: 10px 27px 10px 51px;
+        /* margin-left: -50px;
+        padding: 10px 27px 10px 51px; */
+    }
+    .banner-main-container .left-image-container {
+        /* margin: 0px 0 0 52px; */
+        padding-left: 20px;
     }
 }
