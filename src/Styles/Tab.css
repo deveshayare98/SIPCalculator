@@ -32,4 +32,7 @@
         margin: 0px !important;
         width: 100%;
     }
+    .tab-container .tab-list .tab-name {
+        height: 35px;
+    }
 }
